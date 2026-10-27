@@ -1,0 +1,20 @@
+{
+  "name": "medagent-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MedAgent AI 预问诊分诊系统 - 商用级前端",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.1"
+  }
+}

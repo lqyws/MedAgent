@@ -1,0 +1,3008 @@
+{
+  "model": "qwen-plus",
+  "total": 300,
+  "dept_top1_acc": 0.7,
+  "urgency_acc": 0.35,
+  "results": [
+    {
+      "id": "S0245",
+      "symptom": "颈椎病，脖子痛手麻",
+      "expected_dept": "骨科",
+      "predicted_dept": "骨科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0282",
+      "symptom": "身上起皮疹很痒 6 天",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0043",
+      "symptom": "吃完饭就胃痛，空腹反而好点",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0264",
+      "symptom": "颈椎病，脖子痛手麻",
+      "expected_dept": "骨科",
+      "predicted_dept": "骨科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0240",
+      "symptom": "摔了一跤，膝盖痛 7 天",
+      "expected_dept": "骨科",
+      "predicted_dept": "骨科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0186",
+      "symptom": "12 个月宝宝吐了 3 次，没尿",
+      "expected_dept": "急诊科",
+      "predicted_dept": "儿科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0050",
+      "symptom": "吃完饭就胃痛，空腹反而好点",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0221",
+      "symptom": "宫外孕破裂？",
+      "expected_dept": "急诊科",
+      "predicted_dept": "妇产科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0261",
+      "symptom": "外伤后腿畸形，不能动",
+      "expected_dept": "急诊科",
+      "predicted_dept": "骨科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0280",
+      "symptom": "皮肤发红发烫",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0216",
+      "symptom": "阴道出血，月经不调",
+      "expected_dept": "妇产科",
+      "predicted_dept": "妇产科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0145",
+      "symptom": "肾绞痛那种痛",
+      "expected_dept": "急诊科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0267",
+      "symptom": "开放性骨折，骨头露出来了",
+      "expected_dept": "急诊科",
+      "predicted_dept": "普外科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0021",
+      "symptom": "咳嗽发烧 2 天，胸闷气短",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0190",
+      "symptom": "小孩拉肚子 1 次，水样便",
+      "expected_dept": "儿科",
+      "predicted_dept": "儿科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0090",
+      "symptom": "这辈子最剧烈的头痛，要炸了",
+      "expected_dept": "急诊科",
+      "predicted_dept": "急诊科",
+      "dept_correct": true,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0184",
+      "symptom": "小孩拉肚子 3 次，水样便",
+      "expected_dept": "儿科",
+      "predicted_dept": "儿科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0052",
+      "symptom": "剧烈腹痛伴呕吐 3 天",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "yellow",
+      "urg_correct": true
+    },
+    {
+      "id": "S0170",
+      "symptom": "糖尿病昏迷，叫不醒",
+      "expected_dept": "急诊科",
+      "predicted_dept": "急诊科",
+      "dept_correct": true,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0078",
+      "symptom": "高血压头有点晕",
+      "expected_dept": "心血管内科",
+      "predicted_dept": "心血管内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0089",
+      "symptom": "胸口闷痛 1 分钟，休息能缓解",
+      "expected_dept": "心血管内科",
+      "predicted_dept": "心血管内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0208",
+      "symptom": "宝宝发烧 3 天，咳嗽",
+      "expected_dept": "儿科",
+      "predicted_dept": "儿科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0256",
+      "symptom": "摔了一跤，膝盖痛 4 天",
+      "expected_dept": "骨科",
+      "predicted_dept": "骨科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0068",
+      "symptom": "心慌心悸，心跳快",
+      "expected_dept": "心血管内科",
+      "predicted_dept": "心血管内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0132",
+      "symptom": "小便带血，腰部绞痛",
+      "expected_dept": "急诊科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0207",
+      "symptom": "宝宝发烧 5 天，咳嗽",
+      "expected_dept": "儿科",
+      "predicted_dept": "儿科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0129",
+      "symptom": "肾绞痛那种痛",
+      "expected_dept": "急诊科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0127",
+      "symptom": "小便带血，腰部绞痛",
+      "expected_dept": "急诊科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0262",
+      "symptom": "脊髓损伤？",
+      "expected_dept": "急诊科",
+      "predicted_dept": "神经内科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0010",
+      "symptom": "发热 38.9℃ 伴咳嗽胸痛",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "yellow",
+      "urg_correct": true
+    },
+    {
+      "id": "S0177",
+      "symptom": "最近瘦了 6 斤",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0182",
+      "symptom": "婴儿湿疹很痒",
+      "expected_dept": "儿科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": false,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0248",
+      "symptom": "车祸后颈痛，手脚麻木",
+      "expected_dept": "急诊科",
+      "predicted_dept": "骨科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0047",
+      "symptom": "呕血黑便",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0063",
+      "symptom": "胸口闷痛 4 分钟，休息能缓解",
+      "expected_dept": "心血管内科",
+      "predicted_dept": "心血管内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0098",
+      "symptom": "头痛头晕 3 天",
+      "expected_dept": "神经内科",
+      "predicted_dept": "神经内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0087",
+      "symptom": "胸痛伴大汗，持续 2 分钟不缓解",
+      "expected_dept": "急诊科",
+      "predicted_dept": "急诊科",
+      "dept_correct": true,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0115",
+      "symptom": "蛛网膜下腔出血那种痛",
+      "expected_dept": "急诊科",
+      "predicted_dept": "神经内科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0277",
+      "symptom": "身上起皮疹很痒 1 天",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0252",
+      "symptom": "车祸后颈痛，手脚麻木",
+      "expected_dept": "急诊科",
+      "predicted_dept": "骨科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0114",
+      "symptom": "蛛网膜下腔出血那种痛",
+      "expected_dept": "急诊科",
+      "predicted_dept": "神经内科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0088",
+      "symptom": "血压高到 180/110，头痛想吐",
+      "expected_dept": "急诊科",
+      "predicted_dept": "急诊科",
+      "dept_correct": true,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0074",
+      "symptom": "高血压头有点晕",
+      "expected_dept": "心血管内科",
+      "predicted_dept": "心血管内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0179",
+      "symptom": "甲状腺肿大，手抖",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0289",
+      "symptom": "皮肤发红发烫",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0181",
+      "symptom": "3 个月宝宝吐了 5 次，没尿",
+      "expected_dept": "急诊科",
+      "predicted_dept": "儿科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0105",
+      "symptom": "这辈子最剧烈的头痛，要炸了",
+      "expected_dept": "急诊科",
+      "predicted_dept": "急诊科",
+      "dept_correct": true,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0286",
+      "symptom": "皮肤发红发烫",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0040",
+      "symptom": "吃完饭就胃痛，空腹反而好点",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0155",
+      "symptom": "血糖有点高，多饮多尿",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0017",
+      "symptom": "我咳嗽好几天了，还咳痰 黄色",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0082",
+      "symptom": "血压高到 180/110，头痛想吐",
+      "expected_dept": "急诊科",
+      "predicted_dept": "急诊科",
+      "dept_correct": true,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0081",
+      "symptom": "高血压危象",
+      "expected_dept": "急诊科",
+      "predicted_dept": "心血管内科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0169",
+      "symptom": "最近瘦了 7 斤",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0284",
+      "symptom": "身上起皮疹很痒 1 天",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0255",
+      "symptom": "外伤后腿畸形，不能动",
+      "expected_dept": "急诊科",
+      "predicted_dept": "骨科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0285",
+      "symptom": "脸上长痘痘痤疮",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0168",
+      "symptom": "最近瘦了 14 斤",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0266",
+      "symptom": "外伤后腿畸形，不能动",
+      "expected_dept": "急诊科",
+      "predicted_dept": "骨科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0297",
+      "symptom": "身上起皮疹很痒 5 天",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0102",
+      "symptom": "头痛头晕 2 天",
+      "expected_dept": "神经内科",
+      "predicted_dept": "神经内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0141",
+      "symptom": "腰痛腰酸 5 天",
+      "expected_dept": "肾内科",
+      "predicted_dept": "骨科",
+      "dept_correct": false,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0134",
+      "symptom": "肾绞痛那种痛",
+      "expected_dept": "急诊科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0157",
+      "symptom": "低血糖/高渗昏迷",
+      "expected_dept": "急诊科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0131",
+      "symptom": "肾绞痛那种痛",
+      "expected_dept": "急诊科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0239",
+      "symptom": "怀孕 3 周，阴道大量出血",
+      "expected_dept": "急诊科",
+      "predicted_dept": "妇产科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0061",
+      "symptom": "高血压头有点晕",
+      "expected_dept": "心血管内科",
+      "predicted_dept": "心血管内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0007",
+      "symptom": "感冒发烧咳嗽，嗓子也痛",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0218",
+      "symptom": "怀孕 6 周，阴道大量出血",
+      "expected_dept": "急诊科",
+      "predicted_dept": "妇产科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0058",
+      "symptom": "吃完饭就胃痛，空腹反而好点",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0038",
+      "symptom": "十二指肠溃疡那种痛",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0066",
+      "symptom": "胸口压榨感，要晕倒了",
+      "expected_dept": "急诊科",
+      "predicted_dept": "急诊科",
+      "dept_correct": true,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0292",
+      "symptom": "皮肤发红发烫",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0028",
+      "symptom": "咳嗽发烧 1 天，胸闷气短",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0064",
+      "symptom": "高血压头有点晕",
+      "expected_dept": "心血管内科",
+      "predicted_dept": "心血管内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0287",
+      "symptom": "身上起皮疹很痒 5 天",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0013",
+      "symptom": "咳痰带血",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "yellow",
+      "urg_correct": true
+    },
+    {
+      "id": "S0272",
+      "symptom": "皮肤发红发烫",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0228",
+      "symptom": "痛经痛得厉害",
+      "expected_dept": "妇产科",
+      "predicted_dept": "妇产科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0046",
+      "symptom": "呕血黑便",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0214",
+      "symptom": "宫外孕破裂？",
+      "expected_dept": "急诊科",
+      "predicted_dept": "妇产科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0144",
+      "symptom": "肾绞痛那种痛",
+      "expected_dept": "急诊科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0274",
+      "symptom": "身上起皮疹很痒 2 天",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0110",
+      "symptom": "头痛头晕 4 天",
+      "expected_dept": "神经内科",
+      "predicted_dept": "神经内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0194",
+      "symptom": "小孩拉肚子 7 次，水样便",
+      "expected_dept": "儿科",
+      "predicted_dept": "儿科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0053",
+      "symptom": "剧烈腹痛伴呕吐 5 天",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "yellow",
+      "urg_correct": true
+    },
+    {
+      "id": "S0096",
+      "symptom": "蛛网膜下腔出血那种痛",
+      "expected_dept": "急诊科",
+      "predicted_dept": "神经内科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0230",
+      "symptom": "停经 14 周，突然下腹痛加出血",
+      "expected_dept": "急诊科",
+      "predicted_dept": "妇产科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0290",
+      "symptom": "皮肤发红发烫",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0108",
+      "symptom": "头痛头晕 2 天",
+      "expected_dept": "神经内科",
+      "predicted_dept": "神经内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0002",
+      "symptom": "咳嗽伴咯血 7 口",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0041",
+      "symptom": "吃完饭就胃痛，空腹反而好点",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0133",
+      "symptom": "尿频尿急尿痛",
+      "expected_dept": "肾内科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0030",
+      "symptom": "腹胀便秘，吃不下饭",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0045",
+      "symptom": "腹胀便秘，吃不下饭",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0001",
+      "symptom": "咳嗽发烧 2 天，胸闷气短",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0103",
+      "symptom": "这辈子最剧烈的头痛，要炸了",
+      "expected_dept": "急诊科",
+      "predicted_dept": "急诊科",
+      "dept_correct": true,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0203",
+      "symptom": "小孩拉肚子 1 次，水样便",
+      "expected_dept": "儿科",
+      "predicted_dept": "儿科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0084",
+      "symptom": "胸口压榨感，要晕倒了",
+      "expected_dept": "急诊科",
+      "predicted_dept": "急诊科",
+      "dept_correct": true,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0014",
+      "symptom": "咳嗽 1，还有点发烧 38℃",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0022",
+      "symptom": "发热 38.9℃ 伴咳嗽胸痛",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "yellow",
+      "urg_correct": true
+    },
+    {
+      "id": "S0032",
+      "symptom": "十二指肠溃疡那种痛",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0231",
+      "symptom": "白带多有异味，外阴痒",
+      "expected_dept": "妇产科",
+      "predicted_dept": "妇产科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0152",
+      "symptom": "最近瘦了 15 斤",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0109",
+      "symptom": "头痛头晕 3 天",
+      "expected_dept": "神经内科",
+      "predicted_dept": "神经内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0171",
+      "symptom": "血糖有点高，多饮多尿",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0000",
+      "symptom": "咳嗽伴咯血 7 口",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0076",
+      "symptom": "胸口闷痛 3 分钟，休息能缓解",
+      "expected_dept": "心血管内科",
+      "predicted_dept": "心血管内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0124",
+      "symptom": "尿频尿急尿痛",
+      "expected_dept": "肾内科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0018",
+      "symptom": "咳嗽伴咯血 2 口",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0161",
+      "symptom": "糖尿病昏迷，叫不醒",
+      "expected_dept": "急诊科",
+      "predicted_dept": "急诊科",
+      "dept_correct": true,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0229",
+      "symptom": "阴道出血，月经不调",
+      "expected_dept": "妇产科",
+      "predicted_dept": "妇产科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0174",
+      "symptom": "最近瘦了 15 斤",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0111",
+      "symptom": "失眠多梦睡不好",
+      "expected_dept": "神经内科",
+      "predicted_dept": "神经内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0270",
+      "symptom": "皮肤发红发烫",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0189",
+      "symptom": "宝宝发烧 4 天，咳嗽",
+      "expected_dept": "儿科",
+      "predicted_dept": "儿科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0293",
+      "symptom": "皮肤发红发烫",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0122",
+      "symptom": "小便带血，腰部绞痛",
+      "expected_dept": "急诊科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0136",
+      "symptom": "腰痛腰酸 5 天",
+      "expected_dept": "肾内科",
+      "predicted_dept": "骨科",
+      "dept_correct": false,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0192",
+      "symptom": "婴儿高热惊厥",
+      "expected_dept": "急诊科",
+      "predicted_dept": "儿科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0288",
+      "symptom": "皮肤发红发烫",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0215",
+      "symptom": "白带多有异味，外阴痒",
+      "expected_dept": "妇产科",
+      "predicted_dept": "妇产科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0026",
+      "symptom": "咳嗽 6，还有点发烧 38℃",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0072",
+      "symptom": "高血压危象",
+      "expected_dept": "急诊科",
+      "predicted_dept": "心血管内科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0100",
+      "symptom": "突发半边身体不能动，说话不清楚",
+      "expected_dept": "急诊科",
+      "predicted_dept": "神经内科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0178",
+      "symptom": "甲状腺肿大，手抖",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0167",
+      "symptom": "最近瘦了 6 斤",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0062",
+      "symptom": "胸口闷痛 5 分钟，休息能缓解",
+      "expected_dept": "心血管内科",
+      "predicted_dept": "心血管内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0085",
+      "symptom": "胸口闷痛 2 分钟，休息能缓解",
+      "expected_dept": "心血管内科",
+      "predicted_dept": "心血管内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0012",
+      "symptom": "咳嗽发烧 4 天，胸闷气短",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0005",
+      "symptom": "咳痰带血",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "yellow",
+      "urg_correct": true
+    },
+    {
+      "id": "S0275",
+      "symptom": "脸上长痘痘痤疮",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0225",
+      "symptom": "痛经痛得厉害",
+      "expected_dept": "妇产科",
+      "predicted_dept": "妇产科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0160",
+      "symptom": "糖尿病昏迷，叫不醒",
+      "expected_dept": "急诊科",
+      "predicted_dept": "急诊科",
+      "dept_correct": true,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0200",
+      "symptom": "5 个月宝宝吐了 1 次，没尿",
+      "expected_dept": "急诊科",
+      "predicted_dept": "儿科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0048",
+      "symptom": "十二指肠溃疡那种痛",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0257",
+      "symptom": "外伤后腿畸形，不能动",
+      "expected_dept": "急诊科",
+      "predicted_dept": "骨科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0204",
+      "symptom": "3 个月宝宝吐了 4 次，没尿",
+      "expected_dept": "急诊科",
+      "predicted_dept": "儿科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0015",
+      "symptom": "咳嗽发烧 2 天，胸闷气短",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0091",
+      "symptom": "突发半边身体不能动，说话不清楚",
+      "expected_dept": "急诊科",
+      "predicted_dept": "神经内科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0139",
+      "symptom": "肾绞痛那种痛",
+      "expected_dept": "急诊科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0250",
+      "symptom": "脊髓损伤？",
+      "expected_dept": "急诊科",
+      "predicted_dept": "神经内科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0283",
+      "symptom": "皮肤发红发烫",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0092",
+      "symptom": "手脚有点发麻",
+      "expected_dept": "神经内科",
+      "predicted_dept": "神经内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0164",
+      "symptom": "甲状腺肿大，手抖",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0263",
+      "symptom": "车祸后颈痛，手脚麻木",
+      "expected_dept": "急诊科",
+      "predicted_dept": "骨科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0113",
+      "symptom": "失眠多梦睡不好",
+      "expected_dept": "神经内科",
+      "predicted_dept": "神经内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0055",
+      "symptom": "十二指肠溃疡那种痛",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0159",
+      "symptom": "甲状腺肿大，手抖",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0251",
+      "symptom": "腰痛腿麻，直不起来",
+      "expected_dept": "骨科",
+      "predicted_dept": "骨科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0071",
+      "symptom": "高血压头有点晕",
+      "expected_dept": "心血管内科",
+      "predicted_dept": "心血管内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0213",
+      "symptom": "白带多有异味，外阴痒",
+      "expected_dept": "妇产科",
+      "predicted_dept": "妇产科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0125",
+      "symptom": "肾绞痛那种痛",
+      "expected_dept": "急诊科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0265",
+      "symptom": "摔了一跤，膝盖痛 7 天",
+      "expected_dept": "骨科",
+      "predicted_dept": "骨科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0241",
+      "symptom": "脊髓损伤？",
+      "expected_dept": "急诊科",
+      "predicted_dept": "神经内科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0039",
+      "symptom": "胃痛反酸好几天了",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0150",
+      "symptom": "最近瘦了 8 斤",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0107",
+      "symptom": "蛛网膜下腔出血那种痛",
+      "expected_dept": "急诊科",
+      "predicted_dept": "神经内科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0295",
+      "symptom": "身上起皮疹很痒 7 天",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0198",
+      "symptom": "婴儿脱水",
+      "expected_dept": "急诊科",
+      "predicted_dept": "儿科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0199",
+      "symptom": "小孩拉肚子 3 次，水样便",
+      "expected_dept": "儿科",
+      "predicted_dept": "儿科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0099",
+      "symptom": "突发半边身体不能动，说话不清楚",
+      "expected_dept": "急诊科",
+      "predicted_dept": "神经内科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0034",
+      "symptom": "十二指肠溃疡那种痛",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0237",
+      "symptom": "怀孕 11 周，阴道大量出血",
+      "expected_dept": "急诊科",
+      "predicted_dept": "妇产科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0060",
+      "symptom": "血压高到 180/110，头痛想吐",
+      "expected_dept": "急诊科",
+      "predicted_dept": "急诊科",
+      "dept_correct": true,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0024",
+      "symptom": "感冒发烧咳嗽，嗓子也痛",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0188",
+      "symptom": "婴儿高热惊厥",
+      "expected_dept": "急诊科",
+      "predicted_dept": "儿科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0126",
+      "symptom": "小便有泡沫",
+      "expected_dept": "肾内科",
+      "predicted_dept": "肾内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0175",
+      "symptom": "糖尿病昏迷，叫不醒",
+      "expected_dept": "急诊科",
+      "predicted_dept": "急诊科",
+      "dept_correct": true,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0009",
+      "symptom": "咳嗽 4，还有点发烧 39℃",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0269",
+      "symptom": "外伤后腿畸形，不能动",
+      "expected_dept": "急诊科",
+      "predicted_dept": "骨科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0035",
+      "symptom": "胃痛反酸好几天了",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0219",
+      "symptom": "痛经痛得厉害",
+      "expected_dept": "妇产科",
+      "predicted_dept": "妇产科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0104",
+      "symptom": "突发半边身体不能动，说话不清楚",
+      "expected_dept": "急诊科",
+      "predicted_dept": "神经内科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0166",
+      "symptom": "糖尿病昏迷，叫不醒",
+      "expected_dept": "急诊科",
+      "predicted_dept": "急诊科",
+      "dept_correct": true,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0077",
+      "symptom": "胸痛伴大汗，持续 7 分钟不缓解",
+      "expected_dept": "急诊科",
+      "predicted_dept": "急诊科",
+      "dept_correct": true,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0296",
+      "symptom": "脸上长痘痘痤疮",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0162",
+      "symptom": "甲状腺肿大，手抖",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0016",
+      "symptom": "我咳嗽好几天了，还咳痰 黄色",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0165",
+      "symptom": "甲状腺肿大，手抖",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0056",
+      "symptom": "剧烈腹痛伴呕吐 7 天",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0156",
+      "symptom": "甲状腺肿大，手抖",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0243",
+      "symptom": "脊髓损伤？",
+      "expected_dept": "急诊科",
+      "predicted_dept": "神经内科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0143",
+      "symptom": "小便带血，腰部绞痛",
+      "expected_dept": "急诊科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0158",
+      "symptom": "最近瘦了 13 斤",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0006",
+      "symptom": "咳痰带血",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "yellow",
+      "urg_correct": true
+    },
+    {
+      "id": "S0120",
+      "symptom": "尿频尿急尿痛",
+      "expected_dept": "肾内科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0059",
+      "symptom": "胃痛反酸好几天了",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0273",
+      "symptom": "皮肤发红发烫",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0027",
+      "symptom": "咳痰带血",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "yellow",
+      "urg_correct": true
+    },
+    {
+      "id": "S0095",
+      "symptom": "头痛头晕 7 天",
+      "expected_dept": "神经内科",
+      "predicted_dept": "神经内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0163",
+      "symptom": "甲状腺肿大，手抖",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0259",
+      "symptom": "开放性骨折，骨头露出来了",
+      "expected_dept": "急诊科",
+      "predicted_dept": "骨科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0149",
+      "symptom": "小便有泡沫",
+      "expected_dept": "肾内科",
+      "predicted_dept": "肾内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0209",
+      "symptom": "12 个月宝宝吐了 5 次，没尿",
+      "expected_dept": "急诊科",
+      "predicted_dept": "儿科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0197",
+      "symptom": "10 个月宝宝发烧 39℃ 抽搐了",
+      "expected_dept": "急诊科",
+      "predicted_dept": "儿科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0223",
+      "symptom": "白带多有异味，外阴痒",
+      "expected_dept": "妇产科",
+      "predicted_dept": "妇产科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0227",
+      "symptom": "怀孕 8 周，阴道大量出血",
+      "expected_dept": "急诊科",
+      "predicted_dept": "妇产科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0094",
+      "symptom": "手脚有点发麻",
+      "expected_dept": "神经内科",
+      "predicted_dept": "神经内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0116",
+      "symptom": "头痛头晕 7 天",
+      "expected_dept": "神经内科",
+      "predicted_dept": "神经内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0031",
+      "symptom": "吃完饭就胃痛，空腹反而好点",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0137",
+      "symptom": "小便带血，腰部绞痛",
+      "expected_dept": "急诊科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0067",
+      "symptom": "胸口闷痛 1 分钟，休息能缓解",
+      "expected_dept": "心血管内科",
+      "predicted_dept": "心血管内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0003",
+      "symptom": "咳嗽 2，还有点发烧 38℃",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0210",
+      "symptom": "痛经痛得厉害",
+      "expected_dept": "妇产科",
+      "predicted_dept": "妇产科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0268",
+      "symptom": "腰痛腿麻，直不起来",
+      "expected_dept": "骨科",
+      "predicted_dept": "骨科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0246",
+      "symptom": "摔了一跤，膝盖痛 1 天",
+      "expected_dept": "骨科",
+      "predicted_dept": "骨科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0234",
+      "symptom": "胎盘早剥？",
+      "expected_dept": "急诊科",
+      "predicted_dept": "妇产科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0142",
+      "symptom": "尿频尿急尿痛",
+      "expected_dept": "肾内科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0220",
+      "symptom": "阴道出血，月经不调",
+      "expected_dept": "妇产科",
+      "predicted_dept": "妇产科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0278",
+      "symptom": "脸上长痘痘痤疮",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0172",
+      "symptom": "血糖有点高，多饮多尿",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0185",
+      "symptom": "小孩拉肚子 7 次，水样便",
+      "expected_dept": "儿科",
+      "predicted_dept": "儿科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0173",
+      "symptom": "甲状腺肿大，手抖",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0057",
+      "symptom": "呕血黑便",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0193",
+      "symptom": "小孩拉肚子 5 次，水样便",
+      "expected_dept": "儿科",
+      "predicted_dept": "儿科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0036",
+      "symptom": "吃完饭就胃痛，空腹反而好点",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0019",
+      "symptom": "咳嗽伴咯血 6 口",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0119",
+      "symptom": "手脚有点发麻",
+      "expected_dept": "神经内科",
+      "predicted_dept": "神经内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0029",
+      "symptom": "咳嗽 5，还有点发烧 37℃",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0205",
+      "symptom": "9 个月宝宝吐了 4 次，没尿",
+      "expected_dept": "急诊科",
+      "predicted_dept": "儿科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0086",
+      "symptom": "心慌心悸，心跳快",
+      "expected_dept": "心血管内科",
+      "predicted_dept": "心血管内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0222",
+      "symptom": "停经 15 周，突然下腹痛加出血",
+      "expected_dept": "急诊科",
+      "predicted_dept": "妇产科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0242",
+      "symptom": "外伤后腿畸形，不能动",
+      "expected_dept": "急诊科",
+      "predicted_dept": "骨科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0244",
+      "symptom": "外伤后腿畸形，不能动",
+      "expected_dept": "急诊科",
+      "predicted_dept": "骨科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0206",
+      "symptom": "婴儿脱水",
+      "expected_dept": "急诊科",
+      "predicted_dept": "儿科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0299",
+      "symptom": "身上起皮疹很痒 3 天",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0211",
+      "symptom": "怀孕 11 周，阴道大量出血",
+      "expected_dept": "急诊科",
+      "predicted_dept": "妇产科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0065",
+      "symptom": "胸口闷痛 4 分钟，休息能缓解",
+      "expected_dept": "心血管内科",
+      "predicted_dept": "心血管内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0042",
+      "symptom": "剧烈腹痛伴呕吐 6 天",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0212",
+      "symptom": "阴道出血，月经不调",
+      "expected_dept": "妇产科",
+      "predicted_dept": "妇产科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0069",
+      "symptom": "心慌心悸，心跳快",
+      "expected_dept": "心血管内科",
+      "predicted_dept": "心血管内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0258",
+      "symptom": "摔了一跤，膝盖痛 6 天",
+      "expected_dept": "骨科",
+      "predicted_dept": "骨科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0135",
+      "symptom": "腰痛腰酸 6 天",
+      "expected_dept": "肾内科",
+      "predicted_dept": "骨科",
+      "dept_correct": false,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0249",
+      "symptom": "摔了一跤，膝盖痛 3 天",
+      "expected_dept": "骨科",
+      "predicted_dept": "骨科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0224",
+      "symptom": "痛经痛得厉害",
+      "expected_dept": "妇产科",
+      "predicted_dept": "妇产科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0138",
+      "symptom": "小便带血，腰部绞痛",
+      "expected_dept": "急诊科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0253",
+      "symptom": "腰痛腿麻，直不起来",
+      "expected_dept": "骨科",
+      "predicted_dept": "骨科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0276",
+      "symptom": "脸上长痘痘痤疮",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0051",
+      "symptom": "肚子痛拉肚子 2 次",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0044",
+      "symptom": "腹胀便秘，吃不下饭",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0106",
+      "symptom": "头痛头晕 6 天",
+      "expected_dept": "神经内科",
+      "predicted_dept": "神经内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0191",
+      "symptom": "婴儿高热惊厥",
+      "expected_dept": "急诊科",
+      "predicted_dept": "儿科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0083",
+      "symptom": "胸痛伴大汗，持续 4 分钟不缓解",
+      "expected_dept": "急诊科",
+      "predicted_dept": "急诊科",
+      "dept_correct": true,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0075",
+      "symptom": "高血压头有点晕",
+      "expected_dept": "心血管内科",
+      "predicted_dept": "心血管内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0232",
+      "symptom": "胎盘早剥？",
+      "expected_dept": "急诊科",
+      "predicted_dept": "妇产科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0023",
+      "symptom": "感冒发烧咳嗽，嗓子也痛",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0033",
+      "symptom": "吃完饭就胃痛，空腹反而好点",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0187",
+      "symptom": "婴儿脱水",
+      "expected_dept": "急诊科",
+      "predicted_dept": "儿科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0093",
+      "symptom": "中风了感觉",
+      "expected_dept": "急诊科",
+      "predicted_dept": "神经内科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0148",
+      "symptom": "尿频尿急尿痛",
+      "expected_dept": "肾内科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0008",
+      "symptom": "咳嗽发烧 2 天，胸闷气短",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0260",
+      "symptom": "车祸后颈痛，手脚麻木",
+      "expected_dept": "急诊科",
+      "predicted_dept": "骨科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0201",
+      "symptom": "婴儿高热惊厥",
+      "expected_dept": "急诊科",
+      "predicted_dept": "儿科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0079",
+      "symptom": "胸口闷痛 2 分钟，休息能缓解",
+      "expected_dept": "心血管内科",
+      "predicted_dept": "心血管内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0020",
+      "symptom": "发热 38.9℃ 伴咳嗽胸痛",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "yellow",
+      "urg_correct": true
+    },
+    {
+      "id": "S0049",
+      "symptom": "剧烈腹痛伴呕吐 1 天",
+      "expected_dept": "消化内科",
+      "predicted_dept": "普外科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "yellow",
+      "urg_correct": true
+    },
+    {
+      "id": "S0070",
+      "symptom": "胸口闷痛 1 分钟，休息能缓解",
+      "expected_dept": "心血管内科",
+      "predicted_dept": "心血管内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0281",
+      "symptom": "身上起皮疹很痒 1 天",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0097",
+      "symptom": "中风了感觉",
+      "expected_dept": "急诊科",
+      "predicted_dept": "神经内科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0112",
+      "symptom": "头痛头晕 4 天",
+      "expected_dept": "神经内科",
+      "predicted_dept": "神经内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0180",
+      "symptom": "4 个月宝宝发烧 39℃ 抽搐了",
+      "expected_dept": "急诊科",
+      "predicted_dept": "儿科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0117",
+      "symptom": "头痛头晕 2 天",
+      "expected_dept": "神经内科",
+      "predicted_dept": "神经内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0146",
+      "symptom": "尿频尿急尿痛",
+      "expected_dept": "肾内科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0298",
+      "symptom": "皮肤发红发烫",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0025",
+      "symptom": "咳痰带血",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "yellow",
+      "urg_correct": true
+    },
+    {
+      "id": "S0291",
+      "symptom": "皮肤发红发烫",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0140",
+      "symptom": "腰痛腰酸 7 天",
+      "expected_dept": "肾内科",
+      "predicted_dept": "骨科",
+      "dept_correct": false,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0202",
+      "symptom": "婴儿湿疹很痒",
+      "expected_dept": "儿科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": false,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0011",
+      "symptom": "感冒发烧咳嗽，嗓子也痛",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0271",
+      "symptom": "身上起皮疹很痒 4 天",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0151",
+      "symptom": "糖尿病昏迷，叫不醒",
+      "expected_dept": "急诊科",
+      "predicted_dept": "急诊科",
+      "dept_correct": true,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0183",
+      "symptom": "婴儿湿疹很痒",
+      "expected_dept": "儿科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": false,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0195",
+      "symptom": "11 个月宝宝发烧 39℃ 抽搐了",
+      "expected_dept": "急诊科",
+      "predicted_dept": "儿科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0121",
+      "symptom": "尿频尿急尿痛",
+      "expected_dept": "肾内科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0054",
+      "symptom": "呕血黑便",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0247",
+      "symptom": "脊髓损伤？",
+      "expected_dept": "急诊科",
+      "predicted_dept": "神经内科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0196",
+      "symptom": "宝宝发烧 6 天，咳嗽",
+      "expected_dept": "儿科",
+      "predicted_dept": "儿科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0101",
+      "symptom": "失眠多梦睡不好",
+      "expected_dept": "神经内科",
+      "predicted_dept": "神经内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0154",
+      "symptom": "甲状腺肿大，手抖",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0233",
+      "symptom": "阴道出血，月经不调",
+      "expected_dept": "妇产科",
+      "predicted_dept": "妇产科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0128",
+      "symptom": "尿频尿急尿痛",
+      "expected_dept": "肾内科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0217",
+      "symptom": "停经 7 周，突然下腹痛加出血",
+      "expected_dept": "急诊科",
+      "predicted_dept": "妇产科",
+      "dept_correct": false,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0153",
+      "symptom": "血糖有点高，多饮多尿",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0176",
+      "symptom": "血糖有点高，多饮多尿",
+      "expected_dept": "内分泌科",
+      "predicted_dept": "内分泌科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0226",
+      "symptom": "痛经痛得厉害",
+      "expected_dept": "妇产科",
+      "predicted_dept": "妇产科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0037",
+      "symptom": "吃完饭就胃痛，空腹反而好点",
+      "expected_dept": "消化内科",
+      "predicted_dept": "消化内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0080",
+      "symptom": "心慌心悸，心跳快",
+      "expected_dept": "心血管内科",
+      "predicted_dept": "心血管内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0279",
+      "symptom": "脸上长痘痘痤疮",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0147",
+      "symptom": "肾绞痛那种痛",
+      "expected_dept": "急诊科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0238",
+      "symptom": "痛经痛得厉害",
+      "expected_dept": "妇产科",
+      "predicted_dept": "妇产科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0004",
+      "symptom": "咳嗽发烧 2 天，胸闷气短",
+      "expected_dept": "呼吸内科",
+      "predicted_dept": "呼吸内科",
+      "dept_correct": true,
+      "expected_urg": "yellow",
+      "predicted_urg": "red",
+      "urg_correct": false
+    },
+    {
+      "id": "S0294",
+      "symptom": "身上起皮疹很痒 2 天",
+      "expected_dept": "皮肤科",
+      "predicted_dept": "皮肤科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0235",
+      "symptom": "痛经痛得厉害",
+      "expected_dept": "妇产科",
+      "predicted_dept": "妇产科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0130",
+      "symptom": "小便有泡沫",
+      "expected_dept": "肾内科",
+      "predicted_dept": "肾内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "green",
+      "urg_correct": true
+    },
+    {
+      "id": "S0236",
+      "symptom": "痛经痛得厉害",
+      "expected_dept": "妇产科",
+      "predicted_dept": "妇产科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0118",
+      "symptom": "手脚有点发麻",
+      "expected_dept": "神经内科",
+      "predicted_dept": "神经内科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0073",
+      "symptom": "胸口压榨感，要晕倒了",
+      "expected_dept": "急诊科",
+      "predicted_dept": "急诊科",
+      "dept_correct": true,
+      "expected_urg": "red",
+      "predicted_urg": "red",
+      "urg_correct": true
+    },
+    {
+      "id": "S0254",
+      "symptom": "颈椎病，脖子痛手麻",
+      "expected_dept": "骨科",
+      "predicted_dept": "骨科",
+      "dept_correct": true,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    },
+    {
+      "id": "S0123",
+      "symptom": "尿频尿急尿痛",
+      "expected_dept": "肾内科",
+      "predicted_dept": "泌尿外科",
+      "dept_correct": false,
+      "expected_urg": "green",
+      "predicted_urg": "yellow",
+      "urg_correct": false
+    }
+  ]
+}
